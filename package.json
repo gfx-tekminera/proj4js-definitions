@@ -8,7 +8,7 @@
     "proj4js-definitions.json"
   ],
   "scripts": {
-    "build": "cd data && node step-1-download-csv.js && node step-2-convert-csv-to-json.js && node step-3-modify-json.js && node step-4-convert-json-to-code.js && node step-5-modify-code.js && node step-6-copy-code.js && node step-7-create-legacy-json.js",
+    "build": "cd data && node step-1-download-csv.js && node step-2-convert-csv-to-json.js && node step-3-modify-json.js && node step-4-convert-json-to-code.js && node step-5-modify-code.js && node step-6-copy-code.js && node step-7-create-legacy-json.js && cd ..",
     "test": "node test.js"
   },
   "repository": {

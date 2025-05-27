@@ -4,7 +4,7 @@ let source_code = fs.readFileSync("./modified-defs.js", "utf-8");
 
 // remove trailing ;
 source_code = source_code.substring(0, source_code.length - 1);
-console.log("end of source_code:", [source_code.substr(-10)]);
+console.log("end of source_code:", [source_code.slice(-10)]);
 
 source_code += `\n.reduce((acc, it, i) => {
   if (i % 2 === 0) {

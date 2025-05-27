@@ -108,6 +108,7 @@ dist
 
 # Package Specific
 data/crs.csv
+data/gdalsrsinfo.csv
 data/defs.js
 data/modified-defs.js
 data/defs.json
